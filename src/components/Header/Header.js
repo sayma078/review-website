@@ -10,7 +10,7 @@ const Header = () => {
             
             <div className="banner-bg text-black d-flex align-items-center justify-content-center">
                 <div>
-                   <h1 className="text-warning">Art Gallary</h1><br />
+                   <h1 className="text-warning">Art Gallery</h1><br />
                    <h3>Pursue your passion,Create your life</h3>
                    <h3>Experiences for the Artist in you</h3>  
                 </div>

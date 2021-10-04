@@ -15,6 +15,7 @@ const Course = (props) => {
         <h4>Days of Week:{days}</h4>
         <br />
         <h6>{fee}</h6>
+        <button className=" btn bg-warning">Buy Now</button>
       </div>
     </div>
   </div>
