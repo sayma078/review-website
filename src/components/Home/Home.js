@@ -1,12 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import fakeData from '../../data/fakeData.json';
+import Course from '../Course/Course';
 
 const Home = () => {
+    const [courses, setCourses] = useState([]);
+    useEffect(()=>{
+       setCourses(fakeData)
+    },[]);
     return (
-        <div>
-            <h1>this is home</h1>
-            
+        <div className="container">
+            <div className="row row-cols-1 row-cols-md-2 g-4">
+            {courses.slice(2, 6).map((course) =>(
+                <Course key={course.id} course={course}></Course>
+            ) )}
         </div>
+        </div>
+        
     );
 };
 

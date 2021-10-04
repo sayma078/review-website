@@ -1,21 +1,22 @@
-.name{
-    color: white;
- 
+.banner-bg {
+    background-image: url("../../image/bg.jpg"); 
+    background-position: top;
+   background-size:cover; 
+   height: 400px;
+width: 100%;
 }
-.header {
-    text-align: center;
+.header nav{ 
+    line-height: 60px;
+    background-color:coral;
+
 }
-.header nav{
-    background-color: rgb(252, 156, 121);
-    line-height: 40px;
+.header a:hover{
+background-color:rgb(233, 172, 149);
 }
 .header nav a{
     text-decoration: none;
-    color: white;
+    color: black;
     margin-right: 20px;
     padding: 5px;
     font-size: 20px;
-}
-.header nav a:hover{
-    background-color:bisque;
 }
