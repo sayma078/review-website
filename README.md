@@ -8,4 +8,4 @@
 
 * Drawing is not something that should be confined to art lessons – it’s a skill that can play a role in many different subject areas in school education, and later on in the workplace.
 
-# Live link: https://compassionate-hodgkin-b9383a.netlify.app/about
+# Live link: https://compassionate-hodgkin-b9383a.netlify.app/
